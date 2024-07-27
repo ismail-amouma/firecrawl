@@ -74,8 +74,11 @@ redis-server
 
 ### Terminal 2 - setting up workers
 
-Now, navigate to the apps/api/ directory and run:
-
+Now, navigate to the apps/api/ directory and install:
+```bash
+pnpm install workers
+```
+Then run : 
 ```bash
 pnpm run workers
 ```
